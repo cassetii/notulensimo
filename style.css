@@ -1,0 +1,123 @@
+/* Reset basic margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f7fc; /* Light background */
+    color: #333; /* Dark text */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container for main content */
+.container {
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    width: 80%;
+    max-width: 800px;
+}
+
+/* Title */
+h1 {
+    text-align: center;
+    color: #537bbb;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+/* Form section */
+form {
+    margin-bottom: 20px;
+}
+
+form label {
+    font-weight: bold;
+    color: #537bbb;
+    display: block;
+    margin: 10px 0 5px;
+}
+
+form input,
+form select {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+form button {
+    background-color: #537bbb;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #436a94;
+}
+
+/* Table for Notulen List */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 30px;
+}
+
+table th,
+table td {
+    padding: 12px;
+    text-align: left;
+    font-size: 16px;
+    border: 1px solid #ddd;
+}
+
+table th {
+    background-color: #537bbb;
+    color: white;
+}
+
+table td {
+    background-color: #f9f9f9;
+}
+
+table td button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 6px 12px;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+}
+
+table td button:hover {
+    background-color: #45a049;
+}
+
+#previewContainer {
+    background-color: #e3eaf1;
+    padding: 10px;
+    border-radius: 8px;
+    margin-top: 20px;
+}
